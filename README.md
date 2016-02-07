@@ -1,7 +1,7 @@
 # Lost-Bit
 A javascript game (using the Phaser game engine) called Lost Bit that follows a single pixel on the screen and his journey into saving the computer(screen) it lives in.
 
-<br><br>
+<br>
 # How to use:
 1. Once you download the file, you need to start a local host. You can do that using python. 
 2. launch your terminal and type in  <br>
