@@ -12,17 +12,18 @@
         <script src="js/MainMenu.js"></script>
         <script src="js/Story.js"></script>
         <script src="js/Instructions.js"></script>
-        <script src="js/one.js"></script>
-        <script src="js/LevelOneStory.js"></script>
+        <script src="js/puzzle2.js"></script>
         <script src="js/LevelOne.js"></script>
+        <script src="js/LevelOneStory.js"></script>
+        <script src="js/LevelTwo.js"></script>
         <script src="js/BossLevelStory.js"></script>
         <script src="js/Boss.js"></script>
+        <script src="js/simon.js"></script>
         <script src="js/GameWin.js"></script>
 
         <script src="js/Enemy.js"></script>
 
 
-       
 
         <!-- Add style to the background and set margins using CSS-->
         <style>
@@ -31,7 +32,7 @@
                 margin: 0;
                 background-color: #fff;
             }
-            
+
         </style>
 
     </head>
@@ -51,12 +52,15 @@
                 game.state.add('Preloader', pixel.Preloader);
                 game.state.add('MainMenu', pixel.MainMenu);
                 game.state.add('Story', pixel.Story);
-                game.state.add('one', pixel.one);
+                game.state.add('puzzle', pixel.puzzle);
+                game.state.add('Levelone', pixel.Levelone);
+                game.state.add('rank', pixel.rank);
                 game.state.add('Instructions', pixel.Instructions);
                 game.state.add('LevelOneStory', pixel.LevelOneStory);
-                game.state.add('LevelOne', pixel.LevelOne);
+                game.state.add('LevelTwo', pixel.LevelTwo);
                 game.state.add('BossLevelStory', pixel.BossLevelStory);
                 game.state.add('Boss', pixel.Boss);
+                game.state.add('simon', pixel.simon);
                 game.state.add('GameWin', pixel.GameWin);
 
                 //Start the game
